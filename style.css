@@ -1,0 +1,421 @@
+html{
+
+    scroll-behavior: smooth;
+    
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #f0f8fe;
+
+    
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+  .p1{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+   padding: 20px;
+   font-weight: 700;
+
+  }
+  p{
+    color: #000000;
+  }
+  
+  footer{
+    background: #fff;
+    text-align: center;
+  }
+  /* Sections */
+  .colored-section{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   /* background-color: #cc0826;*/
+    color: rgb(255, 255, 255);
+  }
+  
+  .white-section{
+    background-color: #f0f8fe;
+  }
+  a{
+color: rgb(12, 12, 11);
+
+  }
+  .lead{
+    color: black;
+    font-weight: 500;
+    text-decoration: solid;
+  }
+  /* Headings */
+  .big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  .section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  
+  /* Navigation Bar */
+  .navbar{
+    padding: 0  4.5rem;
+    background-color: #2b292944;
+    
+  }
+  
+  .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    
+    text-shadow: 2px 2px black;
+    font-size: 1.2rem;
+  }
+  
+  /* Download Buttons */
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  .download-button1{
+    align-items: center;
+    margin:auto;  }
+  
+  /* Title section */
+  
+  #title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+  }
+  /* Title image */
+  .title-image{
+    width: 60%;
+    transform: rotate(22deg);
+    
+    align-items: center;
+    position: absolute;
+    right: 20%;
+    top:-11%;
+  }
+  .title-image1{
+    width: 100%;
+   
+    
+    align-items: center;
+    
+    right: 20%;
+  padding: 5%;
+  }
+  .title-image1:hover{
+    transition: 1s;
+    transform: scale(1.5);
+  }
+  .hh {
+    border: none;
+    border-top: 3px double #0712b3;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 65px;
+    width: 80%;
+}
+
+.hh:after {
+    background: #f0f8fe;
+    content: 'Phoebe Kelly Liwanag';
+    color: #0712b3;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+  .title-image:hover{
+   
+  transition:2s;
+  transform: scale(0.9);
+  top: -120px;
+  right: 100px;
+  }
+  
+  
+  
+  /* Feature section */
+  #features{
+  
+    position: relative;
+  }
+  .feature-box{
+  
+    padding: 5%;
+  }
+  
+  .feature-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .feature-icons:hover{
+    color: #ff4c68;
+  }
+  .feature-title{
+    font-size: 1.5rem;
+  }
+  /* Testimonial section */
+  #testimonials{
+    background-color: #ef8172;
+  }
+  .test-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .test-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  #press{
+    background-color:  #ef8172;
+    padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  .rw{
+    margin: auto;
+  width: 50%;
+align-items: center;
+  padding: 10px;
+  }
+  .re{
+    font-family: 'Ubuntu';
+    font-size: 3.5rem;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: 700;
+  }
+  
+  /* Pricing section */
+  #pricing{
+    padding: 100px;
+  }
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  .price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .package-title{
+    font-size: 1.5rem;
+  }
+  
+  
+  /* footer */
+  
+  .icon{
+    margin: 20px 10px;
+  }
+  
+  .display-4{
+  
+    font-weight: 400;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 1200px){
+   #title{
+     text-align: center;
+   }
+  
+   .title-image{
+     position: static;
+     transform: rotate(0);
+   }
+  }
+
+
+
+
+
+  .context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+  background-color: rgb(230, 230, 230); 
+    
+    width: 100%;
+    height:auto;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(156, 10, 10, 0.452);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+video{
+  position: relative;
+}
+
+
+/*------------------------*/
+
+
+ 
+
+@media screen and (max-width: 568px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: inline-block;
+  }
+  .card{
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}

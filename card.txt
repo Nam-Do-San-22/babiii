@@ -1,0 +1,78 @@
+<div class="containerr">
+  <div class="row">
+    <div class="col"data-aos="fade-right" data-aos-delay="10">
+  <div class="card">
+    <div class="img">
+      <img src="media/card1.jpg">
+    </div>
+<div class="top-text">
+      <div class="name">
+Not Shy</div>
+
+<p>
+August 2020</p>
+</div>
+<div class="bottom-text">
+      <div class="text">
+        Not Shy is the third Korean extended play by South Korean girl group Itzy. It was released on August 17, 2020 by JYP Entertainment.</div>
+        
+</div>
+
+</div>
+</div>
+<div class="col"data-aos="fade-up" data-aos-delay="10">
+<div class="card">
+    <div class="img">
+      <img src="media/card2.jpg">
+    </div>
+<div class="top-text">
+      <div class="name">
+Itz Me</div>
+<p>
+March 2020</p>
+</div>
+<div class="bottom-text">
+      <div class="text">
+        It'z Me is the second extended play by the South Korean girl group Itzy released on March 9, 2020 by JYP Entertainment.</div>
+
+</div>
+</div>
+</div>
+<div class="col"data-aos="fade-down" data-aos-delay="10">
+<div class="card">
+    <div class="img">
+      <img src="media/card3.jpg">
+    </div>
+<div class="top-text">
+      <div class="name">
+Itz Icy</div>
+<p>
+July 2019</p>
+</div>
+<div class="bottom-text">
+      <div class="text">
+        It'z Icy is the first extended play by the South Korean girl group Itzy released on July 29, 2019 by JYP Entertainment. "Icy" was released as the lead single from the EP.</div>
+
+</div>
+</div>
+</div>
+<div class="col"data-aos="fade-left" data-aos-delay="10">
+<div class="card">
+<div class="img">
+<img src="media/card4.jpg">
+</div>
+<div class="top-text">
+<div class="name">
+Itz Different</div>
+<p>
+Febuary 2019</p>
+</div>
+<div class="bottom-text">
+<div class="text">
+  It'z Different (stylized as IT'z DIFFERENT) is the debut single album by South Korean girl group Itzy. It was released on February 12, 2019 by JYP Entertainment with the lead single "Dalla Dalla"</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
